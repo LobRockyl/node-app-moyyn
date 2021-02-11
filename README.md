@@ -2,7 +2,6 @@
 
 ## Manual Installation
 
-If you would still prefer to do the installation manually, follow these steps:
 
 Clone the repo:
 
