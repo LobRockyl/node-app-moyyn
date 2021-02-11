@@ -49,11 +49,11 @@ List of available routes:
 `POST /reset-password` - reset user password
 
 **User routes**:\
-`POST /users` - create a new user - Only admins can create other users\ 
+`POST /users` - create a new user Only admins can create other users\ 
 `GET /users` - get all users(Only admins can retrieve all users. This is done for security).\
-`GET /users/:user_id` - get user Logged in users can fetch only their own user information. Only admins can fetch other users.\
-`PATCH /users/:user_id` - update user Logged in users can only update their own details. Only admins can update other users.\
-`DELETE /users/:user_id` - delete user Logged in users can delete only themselves. Only admins can delete other users.
+`GET /users/:user_id` - get user (Logged in users can fetch only their own user information. Only admins can fetch other users).\
+`PATCH /users/:user_id` - update user (Logged in users can only update their own details. Only admins can update other users).\
+`DELETE /users/:user_id` - delete user (Logged in users can delete only themselves. Only admins can delete other users.)
 
 
 If you would like an admin access account which I have already created. You can get the token by logging in with this details. If you input this token into the Authorize button in swagger ui(`http://localhost:3000/docs`) you will be able to access/modify all users.
